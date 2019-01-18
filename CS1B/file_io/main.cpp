@@ -9,9 +9,9 @@ int main(int argc, char* argv[]){
 		}
 	*/
 
-	std::ifstream input_file(argv[1]);
+	std::ifstream input_file("i_file.txt");
 	std::ofstream output_file("o_file.txt");
-
+/*
 	int count = 0;
 
 	while(!input_file.eof()){
@@ -23,7 +23,7 @@ int main(int argc, char* argv[]){
 	}
 
 	std::cout << "Number of lines: " << count << std::endl;
-
+*/
 	while(!input_file.eof()){
 
 		//get a line
@@ -33,16 +33,18 @@ int main(int argc, char* argv[]){
 		//Leyden PJ              810810999 15231 002 9812342311234211234223322123232
 
 		std::string cur_line;
-		std::getline(input_file, cur_line);
-		int spaces = 0;
 		std::string name;
+		bool foundName = false;
+
+
+		std::getline(input_file, cur_line);
+	
+
 		for(int indx = 0; indx < cur_line.length(); ++indx){
-			if(cur_line[indx] == ' '){
-					++spaces;
-				if(spaces == 2){
-					name = cur_line.substr(0, indx);
-					//std::cerr << "X" << name << "X\n";
-				}
+			if(cur_line[indx] == ' ' && cur_line[indx + 1] == ' ' && !foundName){
+				name = cur_line.substr(0, indx);
+				std::cerr << "X" << name << "X\n";
+				foundName = true;
 			}
 		}
 	}
