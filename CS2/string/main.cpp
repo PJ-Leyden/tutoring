@@ -3,9 +3,12 @@
 
 int main(){
 
-	char taco[] = "abcd";
+	String s1("Hello");
 
-	String s(taco);
+	String s2(s1);
 
+	std::cout << "String s1: " << s1 << std::endl;
+
+	std::cout << "String s2: " << s2 << std::endl;
 
 }
