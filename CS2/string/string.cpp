@@ -48,6 +48,10 @@ String::String(int size){
 	str[stringSize - 1] = 0;
 }
 
+String::String(int size, char org[]){
+	assert(size > )
+}
+
 String::~String(){
 	if(str != nullptr){
 		delete[] str;
@@ -70,32 +74,23 @@ void String::resetCapacity(int size){
 }
 
 String& String::operator+=(const String &rhs){
-	//set capacity = length of both combined + 1 for null terminator
-	resetCapacity(length() + rhs.length() + 1);
-	int offset = length();
-	for(int i = 0; i < rhs.length(); ++i){
-		str[offset + i] = rhs.str[i];
-	}
 
+	*this = *this + rhs;
 	return *this;
 }
 
 String String::operator+(const String &rhs){
+
+	//int, char[] ctor, giving size of the lengths combined plus 1 for null terminator
 	String result(length() + rhs.length() + 1, str);
+
 	int offset = length();
 	for(int i = 0; i < rhs.length(); ++i){
 		result.str[offset + i] = rhs.str[i];
 	}
+
 	return result; 
 }
-
-//s1 = [Hello0]
-//s2 = [World0]
-//s3 = [Hello     0];
-//Copy [HelloWorld0]
-
-//Hello, Hi
-//H is equal
 
 
 
