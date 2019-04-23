@@ -2,7 +2,8 @@
 
 int main(){
 
-	varArray myArray;
+	varArray myArray;	
+
 	myArray.addNumber(12.3);
 	myArray.addNumber(234.78);
 	myArray.addNumber(1.2);

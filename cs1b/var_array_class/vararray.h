@@ -14,8 +14,8 @@ Date: April 12th, 2019
 
 class varArray{
 public:
-	varArray(); // void constructor
-	int arraySize() const {return size;} // returns the size of the array
+	     varArray(); // void constructor
+	int  arraySize() const {return size;} // returns the size of the array
 
 	int  check(double number); // returns index of element containg "number" or -1 if none
 	void addNumber(double);    // adds number to the array
