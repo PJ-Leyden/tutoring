@@ -1,0 +1,34 @@
+ 13:21:33 up 19 days, 19:43, 32 users,  load average: 0.03, 0.03, 0.05
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+whaverst pts/0    daphne.sdml.cs.k Tue10   20:03m  0.27s  0.27s -bash
+whaverst pts/1    daphne.sdml.cs.k Tue09   20:03m  0.77s  0.77s -bash
+hpeyravi pts/2    saturn.itl.cs.ke Mon13    2days  0.04s  0.04s -bash
+rgattfi  pts/3    cpe-174-104-159- 11:41    2:13   0.09s  0.09s -bash
+scaldwe7 pts/4    10.11.108.24     11:42   45:01   0.08s  0.08s -bash
+bbenjam5 pts/5    88.202.178.102   08:19    1:17m  0.12s  0.12s -bash
+rdulwort pts/6    cpe-65-185-77-93 09:03    2:13m  0.05s  0.05s -bash
+mpirogow pts/7    198.179.173.2    09:23    3:58m  0.03s  0.03s -bash
+bbenjam5 pts/8    10.12.43.72      12:55    9:17   0.20s  0.12s emacs numList.c
+jbehler1 pts/9    10.12.59.56      12:55    2:05   1.88s  0.91s emacs struct.c
+astiles2 pts/10   10.14.69.216     13:02    7:25   0.07s  0.07s -bash
+jhersh16 pts/11   10.11.106.153    11:05   18:05   0.12s  0.12s -bash
+zbayramz pts/12   cpe-76-189-143-8 11:45    1:36m  0.02s  0.02s -bash
+mpugh8   pts/13   lab217.labs.cs.k 13:18    5.00s  0.05s  0.05s -bash
+bbenjam5 pts/15   88.202.178.102   11:36    1:13m  0.26s  0.19s emacs BenjaminBryce-43203-WarmUp.c
+jkapper3 pts/17   207.244.64.33    11:19   42:05   0.08s  0.08s -bash
+lmccomas pts/18   10.11.104.184    11:14    1:08m  0.05s  0.05s -bash
+jbehler1 pts/19   10.12.59.56      12:57   23:41   0.04s  0.04s -bash
+gtaylo25 pts/20   lab223.labs.cs.k 12:17    4:21   0.23s  0.23s -bash
+cli34    pts/21   10.14.220.219    13:11    9:59   0.03s  0.03s -bash
+kcochr15 pts/22   10.14.195.195    12:29   29.00s  0.16s  0.16s -bash
+meubank  pts/23   10.11.109.115    12:02    1:04m  0.16s  0.03s vim average.hpp
+zmeacham pts/28   10.14.68.206     12:18   13.00s  0.11s  0.11s -bash
+wli21    pts/31   lab220.labs.cs.k 12:19    3:09   0.41s  0.41s -bash
+abryson7 pts/32   10.14.68.70      12:36   21.00s  0.27s  0.00s nano my_name_is.cpp
+hcawthor pts/34   lab221.labs.cs.k 12:19    5.00s  0.12s  0.12s -bash
+drobin   pts/35   lab201.labs.cs.k 12:19   11:41   0.14s  0.14s -bash
+clin31   pts/36   10.14.197.13     12:19   45.00s  0.11s  0.11s -bash
+ngeiger2 pts/37   ul25d2dh2.lms.ke 12:33   53.00s  0.35s  0.32s -bash
+bmohamm1 pts/38   10.14.209.115    12:20   11:25   0.10s  0.10s -bash
+drivers2 pts/39   10.14.71.100     12:21    5.00s  0.17s  0.00s w
+rgattfi  pts/40   cpe-174-104-159- 12:37   29.00s  0.03s  0.03s -bash
